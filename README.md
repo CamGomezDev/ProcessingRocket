@@ -13,3 +13,4 @@ K: main thrust
 J-L: left and right boosters
 I-M: other two boosters
 A-S-D-W: moving camera
+R: restart
