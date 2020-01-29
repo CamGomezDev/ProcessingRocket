@@ -7,3 +7,9 @@ The project was completely implemented in IntelliJ IDEA (not in the Processing e
 ![alt text](https://github.com/dokasov/ProcessingRocket/blob/master/pic.png)
 
 To run it just clone or download the repository, open in IntelliJ, add both of the librarires in libs (all of the jar files) as External libraries to the project, may need to set it as a Java 11 project, and run normally. Shouldn't be too hard. If there's any problem just let me know in the Issues.
+
+For controlling the rocket:
+K: main thrust
+J-L: left and right boosters
+I-M: other two boosters
+A-S-D-W: moving camera
