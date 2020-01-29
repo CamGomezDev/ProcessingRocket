@@ -261,7 +261,7 @@ public class Rocket extends RigidBody {
     }
 
     void keyInteract(boolean pressed) {
-        if(p.key == 'k') {
+        if(p.key == 'k' || p.key == 'K') {
             if(pressed) {
                 thrustActive[0] = pressed;
             } else {
@@ -269,7 +269,7 @@ public class Rocket extends RigidBody {
                 thrustActive[0] = false;
             }
         }
-        if(p.key == 'i') {
+        if(p.key == 'i' || p.key == 'I') {
             if(pressed) {
                 thrustActive[1] = pressed;
             } else {
@@ -277,7 +277,7 @@ public class Rocket extends RigidBody {
                 thrustActive[1] = false;
             }
         }
-        if(p.key == 'j') {
+        if(p.key == 'j' || p.key == 'J') {
             if(pressed) {
                 thrustActive[2] = pressed;
             } else {
@@ -285,7 +285,7 @@ public class Rocket extends RigidBody {
                 thrustActive[2] = false;
             }
         }
-        if(p.key == 'm') {
+        if(p.key == 'm' || p.key == 'M') {
             if(pressed) {
                 thrustActive[3] = pressed;
             } else {
@@ -293,7 +293,7 @@ public class Rocket extends RigidBody {
                 thrustActive[3] = false;
             }
         }
-        if(p.key == 'l') {
+        if(p.key == 'l' || p.key == 'L') {
             if(pressed) {
                 thrustActive[4] = pressed;
             } else {

@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="processing-core">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../libs/processing/processing-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/processing/core.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
